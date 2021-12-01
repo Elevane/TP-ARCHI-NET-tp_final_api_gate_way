@@ -38,10 +38,12 @@ namespace tp_final_api_gate_way.Controllers
                 HttpResponseMessage res = await _service.Ping(service);
                 if (res.IsSuccessStatusCode)
                     aciveServices.services.Add(_mapper.Map<ServiceDTO>(service));
-            }
-            
+            }  
             return Result.Ok<ServicesDTO>(aciveServices);
         }
+
+
+
 
         
 
