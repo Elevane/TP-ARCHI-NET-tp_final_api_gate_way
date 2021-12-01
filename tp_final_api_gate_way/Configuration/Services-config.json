@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "url": "https://localhost:7278/api/v1",
+      "name": "score",
+      "key": "qzDQZDIHQZ¨BFIhbyZQAvqumyfvhzùq53zd56qgf5qz4"
+    },
+  ]
+}
